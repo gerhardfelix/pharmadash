@@ -1,0 +1,23 @@
+/*================================================================================
+	Item Name: Frest HTML Admin Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.navbar-bg-custom {
+	background-color: white !important;
+}
+
+.horizontal-menu.navbar-static .header-navbar.navbar-sticky {
+	width: auto;
+}
+
+.header-navbar[class*="bg-"] .navbar-nav .nav-item > a i, .header-navbar[class*="bg-"] .navbar-nav .nav-item > a span {
+	color: #475f7b !important; 
+}
