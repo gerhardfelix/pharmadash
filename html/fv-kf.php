@@ -164,7 +164,7 @@
                                     <div class="card text-center">
                                         <div class="card-body py-1">
                                             <div class="text-muted line-ellipsis">RM Cost/Unit</div>
-                                            <h3 class="mb-0">1.23 %</h3>
+                                            <h3 class="mb-0">123 %</h3>
                                         </div>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@
                                     <div class="card text-center">
                                         <div class="card-body py-1">
                                             <div class="text-muted line-ellipsis">PM Cost/Unit</div>
-                                            <h3 class="mb-0">2.34 %</h3>
+                                            <h3 class="mb-0">128 %</h3>
                                         </div>
                                     </div>
                                 </div>

@@ -48,18 +48,10 @@ $(document).ready(function () {
         'You can use <b>bold text</b>, ' +
         '<a href="https://pixinvent.com/" target="_blank">links</a> ' +
         'and other HTML tags',
-      showCloseButton: true,
-      showCancelButton: true,
       focusConfirm: false,
-      confirmButtonText:
-        '<i class="bx bx-like"></i> Great!',
       confirmButtonAriaLabel: 'Thumbs up, great!',
-      cancelButtonText:
-        '<i class="bx bx-dislike"></i>',
-      cancelButtonAriaLabel: 'Thumbs down',
       confirmButtonClass: 'btn btn-primary',
       buttonsStyling: false,
-      cancelButtonClass: 'btn btn-danger ml-1',
     })
   });
 

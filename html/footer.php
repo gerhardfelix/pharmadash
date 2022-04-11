@@ -25,6 +25,8 @@
     <script src="../app-assets/vendors/js/extensions/swiper.min.js"></script>
     <script src="../app-assets/vendors/js/pickers/daterange/daterangepicker.js"></script>
     <script src="../app-assets/vendors/js/extensions/moment.min.js"></script>
+    <script src="../app-assets/vendors/js/extensions/sweetalert2.all.min.js"></script>
+    <script src="../app-assets/vendors/js/extensions/polyfill.min.js"></script>
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
@@ -40,6 +42,7 @@
     <script src="../app-assets/js/scripts/maps/maps-leaflet.js"></script>
     <script src="../app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
     <script src="../app-assets/js/scripts/cards/widgets.js"></script>
+    <script src="../app-assets/js/scripts/extensions/sweet-alerts.js"></script>
     <!-- END: Page JS-->
 
 </body>

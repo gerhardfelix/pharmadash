@@ -21,6 +21,8 @@
     <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/extensions/dragula.min.css">
     <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/maps/leaflet.min.css">
     <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/extensions/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="../app-assets/vendors/css/extensions/sweetalert2.min.css">
     <!-- END: Vendor CSS-->
 
     <!-- BEGIN: Theme CSS-->
@@ -53,7 +55,7 @@
     
 
     <!-- BEGIN: Header-->
-    <nav class="header-navbar navbar-expand-lg navbar navbar-with-menu navbar-static-top bg-primary navbar-brand-center navbar-bg-custom">
+    <nav class="header-navbar navbar-expand-lg navbar navbar-with-menu navbar-static-top bg-secondary navbar-brand-center navbar-bg-custom">
         <div class="navbar-header d-xl-block d-none">
             <ul class="nav navbar-nav flex-row">
                 <li class="nav-item"><a class="navbar-brand" href="../html/index.php">
@@ -142,14 +144,230 @@
                                                                         <!-- Tab panes -->
                                                                         <div class="tab-content pt-1">
                                                                             <div class="tab-pane active" id="line1-just" role="tabpanel" aria-labelledby="line1-tab">
-                                                                                <p>
-                                                                                    minico 1 line 1
-                                                                                </p>
+                                                                                <!-- Background variants section start -->
+                                                                                <section id="bg-variants">
+                                                                                    <div class="row">
+                                                                                        <div class="col">
+                                                                                            <div class="card border-secondary text-center bg-transparent">
+                                                                                                <div class="card-body">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Granulation</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                            <img src="../app-assets/images/line_v/line1a.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Diosna</p>
+                                                                                                            <h4>
+                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                            </h4>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <button type="button" class="btn btn-outline-primary" id="custom-icon">Check</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col">
+                                                                                            <div class="card border-secondary text-center bg-transparent">
+                                                                                                <div class="card-body">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Final Mixing</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                            <img src="../app-assets/images/line_v/line1b.png" alt="element 04" width="150" height="100" class="float-left mt-1 img-fluid">
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Zanchetta</p>
+                                                                                                            <h4>
+                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                            </h4>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <button type="button" class="btn btn-outline-primary mr-1 mb-1" id="html-alert">HTML</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col">
+                                                                                            <div class="card border-secondary text-center bg-transparent">
+                                                                                                <div class="card-body">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Compressing</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                            <img src="../app-assets/images/line_v/line1c.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Fette 3200</p>
+                                                                                                            <h4>
+                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                            </h4>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col">
+                                                                                            <div class="card border-secondary text-center bg-transparent">
+                                                                                                <div class="card-body">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">1<sup>st</sup> Packaging</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                            <img src="../app-assets/images/line_v/line1d.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">UPS 1070</p>
+                                                                                                            <h4>
+                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                            </h4>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col">
+                                                                                            <div class="card border-secondary text-center bg-transparent">
+                                                                                                <div class="card-body">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">2<sup>nd</sup> Packaging</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                            <img src="../app-assets/images/line_v/line1e.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">C2404</p>
+                                                                                                            <h4>
+                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                            </h4>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </section>
+                                                                                <!-- Background variants section end -->
                                                                             </div>
                                                                             <div class="tab-pane" id="line11-just" role="tabpanel" aria-labelledby="line11-tab">
-                                                                                <p>
-                                                                                    minico 1 line 11
-                                                                                </p>
+                                                                                <!-- Background variants section start -->
+                                                                                <section id="bg-variants">
+                                                                                    <div class="row">
+                                                                                        <div class="col">
+                                                                                            <div class="card border-secondary text-center bg-transparent">
+                                                                                                <div class="card-body">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Granulation</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                            <img src="../app-assets/images/line_v/line1a.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Diosna</p>
+                                                                                                            <h4>
+                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                            </h4>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col">
+                                                                                            <div class="card border-secondary text-center bg-transparent">
+                                                                                                <div class="card-body">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Final Mixing</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                            <img src="../app-assets/images/line_v/line1b.png" alt="element 04" width="150" height="100" class="float-left mt-1 img-fluid">
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Zanchetta</p>
+                                                                                                            <h4>
+                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                            </h4>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col">
+                                                                                            <div class="card border-secondary text-center bg-transparent">
+                                                                                                <div class="card-body">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Compressing</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                            <img src="../app-assets/images/line_v/line1c.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Fette 3200</p>
+                                                                                                            <h4>
+                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                            </h4>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col">
+                                                                                            <div class="card border-secondary text-center bg-transparent">
+                                                                                                <div class="card-body">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">1<sup>st</sup> Packaging</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                            <img src="../app-assets/images/line_v/line1d.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">UPS 1070</p>
+                                                                                                            <h4>
+                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                            </h4>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <div class="col">
+                                                                                            <div class="card border-secondary text-center bg-transparent">
+                                                                                                <div class="card-body">
+                                                                                                    <div class="row">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">2<sup>nd</sup> Packaging</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                            <img src="../app-assets/images/line_v/line1e.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">C2404</p>
+                                                                                                            <h4>
+                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                            </h4>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </section>
+                                                                                <!-- Background variants section end -->
                                                                             </div>
                                                                         </div>
                                                                     </div>
