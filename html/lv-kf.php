@@ -68,7 +68,7 @@
                 <div class="navbar-collapse" id="navbar-mobile">
                     <div class="mr-auto float-left bookmark-wrapper d-flex align-items-center">
                         <ul class="nav navbar-nav">
-                            <h4 class="brand-text mb-0">Line View Dashboard</h4>
+                            <h4 class="brand-text">Line View Dashboard</h4>
                         </ul>
                     </div>
                     <ul class="nav navbar-nav float-right d-flex align-items-center">
@@ -164,7 +164,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">Check</button>
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -185,7 +185,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button type="button" class="btn btn-outline-primary" id="html-alert">HTML</button>
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -206,7 +206,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary">Check</button>
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -227,7 +227,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary">Check</button>
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -244,11 +244,11 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">C2404</p>
                                                                                                             <h4>
-                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                                <span class="badge badge-light-danger">OFF</span>
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary">Check</button>
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong2">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -277,7 +277,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary">Check</button>
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -298,7 +298,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary">Check</button>
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -319,7 +319,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary">Check</button>
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -340,7 +340,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary">Check</button>
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -357,11 +357,11 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">C2404</p>
                                                                                                             <h4>
-                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                                <span class="badge badge-light-danger">OFF</span>
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary">Check</button>
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong2">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -577,28 +577,313 @@
         </div>
     </div>
     <!-- END: Content-->
-
-    <!-- Modal 1 -->
-    <!-- please always use unique ID while declarated new modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
+.
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
+
+        <div class="divider divider-center divider-info">
+            <div class="divider-text"><b>Info</b></div>
         </div>
-      </div>
+        <div class="modal-body">
+            <!-- Basic Horizontal form layout section start -->
+            <section id="basic-horizontal-layouts">
+                <div class="row match-height">
+                    <div class="col-md-12 col-12">
+                        <form class="form form-horizontal">
+                            <div class="form-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <p>Status</p>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="alert bg-rgba-success alert-dismissible mb-2" role="alert">
+                                            <div class="d-flex align-items-center">
+                                                <span>
+                                                    ON
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p>Reason</p>
+                                    </div>
+                                    <div class="col-md-9 form-group">
+                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="N/A" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- Basic Horizontal form layout section end -->
+        </div>
+
+        <div class="divider divider-center divider-primary">
+            <div class="divider-text"><b>Now Running</b></div>
+        </div>
+        <div class="modal-body">
+            <!-- Basic Horizontal form layout section start -->
+            <section id="basic-horizontal-layouts">
+                <div class="row match-height">
+                    <div class="col-md-12 col-12">
+                        <form class="form form-horizontal">
+                            <div class="form-body">
+                                <div class="row">
+
+                                    <div class="col-md-3">
+                                        <p>Batch</p>
+                                    </div>
+                                    <div class="col-md-9 form-group">
+                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="KKTPRGO05127" />
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p>Product</p>
+                                    </div>
+                                    <div class="col-md-3 form-group">
+                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="TPRGO" />
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="Promag Tablet" />
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p>Standart CT</p>
+                                    </div>
+                                    <div class="col-md-9 form-group">
+                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="3.05" />
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p>Average CT</p>
+                                    </div>
+                                    <div class="col-md-9 form-group">
+                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="2.98" />
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p>Estimated Time to Complete</p>
+                                    </div>
+                                    <div class="col-md-9 form-group">
+                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="12-APR-2022 07:16:32" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- Basic Horizontal form layout section end -->
+        </div>
+
+        <div class="divider divider-center divider-success">
+            <div class="divider-text"><b>Next</b></div>
+        </div>
+        <div class="modal-body">
+            <!-- Table head options start -->
+            <div class="row" id="table-head">
+                <div class="col-12">
+                    <!-- table head dark -->
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Batch</th>
+                                    <th>Product</th>
+                                    <th>Estimated Start</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>KKTPRGO05128</td>
+                                    <td>TPRGO</td>
+                                    <td>12-APR-2022 10:16:32</td>
+                                </tr>
+                                <tr>
+                                    <td>KKTPRGO05129</td>
+                                    <td>TPRGO</td>
+                                    <td>15-APR-2022 10:16:32</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- Table head options end -->
+        </div>
+
+        <div class="divider divider-center divider-light">
+            <div class="divider-text"><b>Before</b></div>
+        </div>
+        <div class="modal-body">
+            <!-- Table head options start -->
+            <div class="row" id="table-head">
+                <div class="col-12">
+                    <!-- table head dark -->
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Batch</th>
+                                    <th>Product</th>
+                                    <th>Completed</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>KKTPRGO05126</td>
+                                    <td>TPRGO</td>
+                                    <td>9-APR-2022 10:16:32</td>
+                                </tr>
+                                <tr>
+                                    <td>KKTPRGO05125</td>
+                                    <td>TPRGO</td>
+                                    <td>6-APR-2022 10:16:32</td>
+                                </tr>
+                                <tr>
+                                    <td>KKTPRGO05124</td>
+                                    <td>TPRGO</td>
+                                    <td>3-APR-2022 10:16:32</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- Table head options end -->
+        </div>
+
+        </div>
+    </div>
     </div>
 
+    <!-- Modal2 -->
+    <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
 
+        <div class="divider divider-center divider-info">
+            <div class="divider-text"><b>Info</b></div>
+        </div>
+        <div class="modal-body">
+            <!-- Basic Horizontal form layout section start -->
+            <section id="basic-horizontal-layouts">
+                <div class="row match-height">
+                    <div class="col-md-12 col-12">
+                        <form class="form form-horizontal">
+                            <div class="form-body">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <p>Status</p>
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="alert bg-rgba-danger alert-dismissible mb-2" role="alert">
+                                            <div class="d-flex align-items-center">
+                                                <span>
+                                                    OFF
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <p>Reason</p>
+                                    </div>
+                                    <div class="col-md-9 form-group">
+                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="Breakdown" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-- Basic Horizontal form layout section end -->
+        </div>
+
+        <div class="divider divider-center divider-primary">
+            <div class="divider-text"><b>Now Running</b></div>
+        </div>
+        <div class="modal-body">
+            <h4>N/A</h4>
+        </div>
+
+        <div class="divider divider-center divider-success">
+            <div class="divider-text"><b>Next</b></div>
+        </div>
+        <div class="modal-body">
+            <!-- Table head options start -->
+            <div class="row" id="table-head">
+                <div class="col-12">
+                    <!-- table head dark -->
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Batch</th>
+                                    <th>Product</th>
+                                    <th>Estimated Start</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>KKTPRGO05128</td>
+                                    <td>TPRGO</td>
+                                    <td>12-APR-2022 10:16:32</td>
+                                </tr>
+                                <tr>
+                                    <td>KKTPRGO05129</td>
+                                    <td>TPRGO</td>
+                                    <td>15-APR-2022 10:16:32</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- Table head options end -->
+        </div>
+
+        <div class="divider divider-center divider-light">
+            <div class="divider-text"><b>Before</b></div>
+        </div>
+        <div class="modal-body">
+            <!-- Table head options start -->
+            <div class="row" id="table-head">
+                <div class="col-12">
+                    <!-- table head dark -->
+                    <div class="table-responsive">
+                        <table class="table">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Batch</th>
+                                    <th>Product</th>
+                                    <th>Completed</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>KKTPRGO05126</td>
+                                    <td>TPRGO</td>
+                                    <td>9-APR-2022 10:16:32</td>
+                                </tr>
+                                <tr>
+                                    <td>KKTPRGO05125</td>
+                                    <td>TPRGO</td>
+                                    <td>6-APR-2022 10:16:32</td>
+                                </tr>
+                                <tr>
+                                    <td>KKTPRGO05124</td>
+                                    <td>TPRGO</td>
+                                    <td>3-APR-2022 10:16:32</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- Table head options end -->
+        </div>
+
+        </div>
+    </div>
+    </div>
 <?php require "footer.php"; ?>
