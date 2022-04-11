@@ -154,7 +154,7 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">Granulation</p>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
                                                                                                             <img src="../app-assets/images/line_v/line1a.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
@@ -164,7 +164,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button type="button" class="btn btn-outline-primary" id="custom-icon">Check</button>
+                                                                                                    <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModal">Check</button>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -175,7 +175,7 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">Final Mixing</p>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
                                                                                                             <img src="../app-assets/images/line_v/line1b.png" alt="element 04" width="150" height="100" class="float-left mt-1 img-fluid">
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
@@ -185,7 +185,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button type="button" class="btn btn-outline-primary mr-1 mb-1" id="html-alert">HTML</button>
+                                                                                                    <button type="button" class="btn btn-outline-primary" id="html-alert">HTML</button>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -196,7 +196,7 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">Compressing</p>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
                                                                                                             <img src="../app-assets/images/line_v/line1c.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
@@ -206,7 +206,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                    <button class="btn btn-primary">Check</button>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -217,7 +217,7 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">1<sup>st</sup> Packaging</p>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
                                                                                                             <img src="../app-assets/images/line_v/line1d.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
@@ -227,7 +227,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                    <button class="btn btn-primary">Check</button>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -238,7 +238,7 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">2<sup>nd</sup> Packaging</p>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
                                                                                                             <img src="../app-assets/images/line_v/line1e.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
@@ -248,7 +248,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                    <button class="btn btn-primary">Check</button>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -267,7 +267,7 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">Granulation</p>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
                                                                                                             <img src="../app-assets/images/line_v/line1a.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
@@ -277,7 +277,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                    <button class="btn btn-primary">Check</button>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -288,7 +288,7 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">Final Mixing</p>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
                                                                                                             <img src="../app-assets/images/line_v/line1b.png" alt="element 04" width="150" height="100" class="float-left mt-1 img-fluid">
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
@@ -298,7 +298,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                    <button class="btn btn-primary">Check</button>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -309,7 +309,7 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">Compressing</p>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
                                                                                                             <img src="../app-assets/images/line_v/line1c.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
@@ -319,7 +319,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                    <button class="btn btn-primary">Check</button>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -330,7 +330,7 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">1<sup>st</sup> Packaging</p>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
                                                                                                             <img src="../app-assets/images/line_v/line1d.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
@@ -340,7 +340,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                    <button class="btn btn-primary">Check</button>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -351,7 +351,7 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">2<sup>nd</sup> Packaging</p>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center">
+                                                                                                        <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
                                                                                                             <img src="../app-assets/images/line_v/line1e.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
@@ -361,7 +361,7 @@
                                                                                                             </h4>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button class="btn btn-primary mt-50">Check</button>
+                                                                                                    <button class="btn btn-primary">Check</button>
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -577,6 +577,28 @@
         </div>
     </div>
     <!-- END: Content-->
+
+    <!-- Modal 1 -->
+    <!-- please always use unique ID while declarated new modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 <?php require "footer.php"; ?>
