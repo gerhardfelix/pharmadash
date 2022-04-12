@@ -151,7 +151,7 @@
                                                                                                             <p class="card-text">Granulation</p>
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
-                                                                                                            <a href="https://www.figma.com/proto/tuTZReFjrKtsrNggoppctc/Kalbe-ePM?node-id=60%3A1220&scaling=scale-down&page-id=60%3A277&starting-point-node-id=60%3A1023">
+                                                                                                            <a href="https://epm-fe.z.devcloud.my.id/_backyard/login">
                                                                                                                 <img src="../app-assets/images/line_v/line1a.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">    
                                                                                                             </a>                                                                                                            
                                                                                                         </div>
@@ -177,7 +177,7 @@
                                                                                                             <p class="card-text">Final Mixing</p>
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
-                                                                                                            <a href="https://www.figma.com/proto/tuTZReFjrKtsrNggoppctc/Kalbe-ePM?node-id=60%3A1220&scaling=scale-down&page-id=60%3A277&starting-point-node-id=60%3A1023">
+                                                                                                            <a href="https://epm-fe.z.devcloud.my.id/_backyard/login">
                                                                                                                 <img src="../app-assets/images/line_v/line1b.png" alt="element 04" width="150" height="100" class="float-left mt-1 img-fluid">
                                                                                                             </a>                                                                                                            
                                                                                                         </div>
@@ -203,7 +203,7 @@
                                                                                                             <p class="card-text">Compressing</p>
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
-                                                                                                            <a href="https://www.figma.com/proto/tuTZReFjrKtsrNggoppctc/Kalbe-ePM?node-id=60%3A1220&scaling=scale-down&page-id=60%3A277&starting-point-node-id=60%3A1023">
+                                                                                                            <a href="https://epm-fe.z.devcloud.my.id/_backyard/login">
                                                                                                                 <img src="../app-assets/images/line_v/line1c.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">    
                                                                                                             </a>
                                                                                                             </div>
@@ -229,7 +229,7 @@
                                                                                                             <p class="card-text">1<sup>st</sup> Packaging</p>
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
-                                                                                                            <a href="https://www.figma.com/proto/tuTZReFjrKtsrNggoppctc/Kalbe-ePM?node-id=60%3A1220&scaling=scale-down&page-id=60%3A277&starting-point-node-id=60%3A1023">
+                                                                                                            <a href="https://epm-fe.z.devcloud.my.id/_backyard/login">
                                                                                                                 <img src="../app-assets/images/line_v/line1d.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">    
                                                                                                             </a>
                                                                                                         </div>
@@ -255,7 +255,7 @@
                                                                                                             <p class="card-text">2<sup>nd</sup> Packaging</p>
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
-                                                                                                            <a href="https://www.figma.com/proto/tuTZReFjrKtsrNggoppctc/Kalbe-ePM?node-id=60%3A1220&scaling=scale-down&page-id=60%3A277&starting-point-node-id=60%3A1023">
+                                                                                                            <a href="https://epm-fe.z.devcloud.my.id/_backyard/login">
                                                                                                                 <img src="../app-assets/images/line_v/line1e.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">    
                                                                                                             </a>
                                                                                                         </div>
