@@ -146,7 +146,7 @@
                                     <div class="card text-center">
                                         <div class="card-body py-1">
                                             <div class="text-muted line-ellipsis">Order Fullfilment</div>
-                                            <h3 class="mb-0">98.71 %</h3>
+                                            <h4 class="mb-0">98.71 %</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -154,7 +154,7 @@
                                     <div class="card text-center">
                                         <div class="card-body py-1">
                                             <div class="text-muted line-ellipsis">COGM / Unit</div>
-                                            <h3 class="mb-0">100.5 %</h3>
+                                            <h4 class="mb-0">100.5 %</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -164,7 +164,7 @@
                                     <div class="card text-center">
                                         <div class="card-body py-1">
                                             <div class="text-muted line-ellipsis">RM Cost/Unit</div>
-                                            <h3 class="mb-0">1.23 %</h3>
+                                            <h4 class="mb-0">1.23 %</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -172,7 +172,7 @@
                                     <div class="card text-center">
                                         <div class="card-body py-1">
                                             <div class="text-muted line-ellipsis">PM Cost/Unit</div>
-                                            <h3 class="mb-0">2.34 %</h3>
+                                            <h4 class="mb-0">2.34 %</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -180,7 +180,7 @@
                                     <div class="card text-center">
                                         <div class="card-body py-1">
                                             <div class="text-muted line-ellipsis">DL/Unit</div>
-                                            <h3 class="mb-0">71.6 %</h3>
+                                            <h4 class="mb-0">71.6 %</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -188,7 +188,7 @@
                                     <div class="card text-center">
                                         <div class="card-body py-1">
                                             <div class="text-muted line-ellipsis">FOH/Unit</div>
-                                            <h3 class="mb-0">65.8 %</h3>
+                                            <h4 class="mb-0">65.8 %</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -198,7 +198,7 @@
                                     <div class="card text-center">
                                         <div class="card-body py-1">
                                             <div class="text-muted line-ellipsis">BRFT</div>
-                                            <h3 class="mb-0">98.65 %</h3>
+                                            <h4 class="mb-0">98.65 %</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -206,15 +206,15 @@
                                     <div class="card text-center">
                                         <div class="card-body py-1">
                                             <div class="text-muted line-ellipsis">PCT Sterile</div>
-                                            <h3 class="mb-0">NA</h3>
+                                            <h4 class="mb-0">NA</h4>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-3">
                                     <div class="card text-center">
                                         <div class="card-body py-1">
-                                            <div class="text-muted line-ellipsis">PCT &notin; Sterile</div>
-                                            <h3 class="mb-0">5.57 %</h3>
+                                            <div class="text-muted line-ellipsis">PCT &ne; Sterile</div>
+                                            <h4 class="mb-0">5.57 D</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -222,7 +222,7 @@
                                     <div class="card text-center">
                                         <div class="card-body py-1">
                                             <div class="text-muted line-ellipsis">Deviation</div>
-                                            <h3 class="mb-0">-68.29 %</h3>
+                                            <h4 class="mb-0">-68.29 %</h4>
                                         </div>
                                     </div>
                                 </div>
@@ -244,7 +244,7 @@
                                             <div class="card text-center">
                                                 <div class="card-body py-1">
                                                     <div class="text-muted line-ellipsis">Yield</div>
-                                                    <h3 class="mb-0">100.14 %</h3>
+                                                    <h4 class="mb-0">100.14 %</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -252,7 +252,7 @@
                                             <div class="card text-center">
                                                 <div class="card-body py-1">
                                                     <div class="text-muted line-ellipsis">Cost Saving</div>
-                                                    <h3 class="mb-0">0.43</h3>
+                                                    <h4 class="mb-0">0.43 B</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -262,7 +262,7 @@
                                             <div class="card text-center">
                                                 <div class="card-body py-1">
                                                     <div class="text-muted line-ellipsis">Rework</div>
-                                                    <h3 class="mb-0">0.8 %</h3>
+                                                    <h4 class="mb-0">0.8 %</h4>
                                                 </div>
                                             </div>
                                         </div>
@@ -270,7 +270,7 @@
                                             <div class="card text-center">
                                                 <div class="card-body py-1">
                                                     <div class="text-muted line-ellipsis">LTA</div>
-                                                    <h3 class="mb-0">0</h3>
+                                                    <h4 class="mb-0">0</h4>
                                                 </div>
                                             </div>
                                         </div>

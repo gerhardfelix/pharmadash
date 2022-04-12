@@ -84,7 +84,6 @@
         <div class="content-overlay"></div>
         <div class="content-wrapper">
             <div class="content-body">
-                <!-- Vertical Pills start -->
                 <section id="stacked-pill">
                     <div class="row">
                         <div class="col-12">
@@ -123,7 +122,6 @@
                                         <div class="col-11">
                                             <div class="tab-content">
                                                 <div role="tabpanel" class="tab-pane active" id="vertical-pill-1" aria-labelledby="stacked-pill-1" aria-expanded="true">
-                                                    <!-- Nav Justified Starts -->
                                                     <section id="nav-justified">
                                                         <div class="row">
                                                             <div class="col-12">
@@ -141,10 +139,8 @@
                                                                                 </a>
                                                                             </li>
                                                                         </ul>
-                                                                        <!-- Tab panes -->
                                                                         <div class="tab-content pt-1">
                                                                             <div class="tab-pane active" id="line1-just" role="tabpanel" aria-labelledby="line1-tab">
-                                                                                <!-- Background variants section start -->
                                                                                 <section id="bg-variants">
                                                                                     <div class="row">
                                                                                         <div class="col">
@@ -162,6 +158,9 @@
                                                                                                             <h4>
                                                                                                                 <span class="badge badge-light-success">ON</span>
                                                                                                             </h4>
+                                                                                                            <div class="progress progress-bar-primary mb-2">
+                                                                                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%"></div>
+                                                                                                            </div>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
@@ -183,6 +182,9 @@
                                                                                                             <h4>
                                                                                                                 <span class="badge badge-light-success">ON</span>
                                                                                                             </h4>
+                                                                                                            <div class="progress progress-bar-primary mb-2">
+                                                                                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
+                                                                                                            </div>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
@@ -204,6 +206,9 @@
                                                                                                             <h4>
                                                                                                                 <span class="badge badge-light-success">ON</span>
                                                                                                             </h4>
+                                                                                                            <div class="progress progress-bar-primary mb-2">
+                                                                                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%"></div>
+                                                                                                            </div>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
@@ -223,11 +228,14 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">UPS 1070</p>
                                                                                                             <h4>
-                                                                                                                <span class="badge badge-light-success">ON</span>
+                                                                                                                <span class="badge badge-light-danger">BREAKDOWN</span>
                                                                                                             </h4>
+                                                                                                            <div class="progress progress-bar-primary mb-2">
+                                                                                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width:20%"></div>
+                                                                                                            </div>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Check</button>                                                                                                    
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong2">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
@@ -244,20 +252,21 @@
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">C2404</p>
                                                                                                             <h4>
-                                                                                                                <span class="badge badge-light-danger">OFF</span>
+                                                                                                                <span class="badge badge-light-warning">NO TARGET</span>
                                                                                                             </h4>
+                                                                                                            <div class="progress progress-bar-primary mb-2">
+                                                                                                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div>
+                                                                                                            </div>
                                                                                                         </div>
                                                                                                     </div>
-                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong2">Check</button>                                                                                                    
+                                                                                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong3">Check</button>                                                                                                    
                                                                                                 </div>
                                                                                             </div>
                                                                                         </div>
                                                                                     </div>
                                                                                 </section>
-                                                                                <!-- Background variants section end -->
                                                                             </div>
                                                                             <div class="tab-pane" id="line11-just" role="tabpanel" aria-labelledby="line11-tab">
-                                                                                <!-- Background variants section start -->
                                                                                 <section id="bg-variants">
                                                                                     <div class="row">
                                                                                         <div class="col">
@@ -367,7 +376,6 @@
                                                                                         </div>
                                                                                     </div>
                                                                                 </section>
-                                                                                <!-- Background variants section end -->
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -375,10 +383,8 @@
                                                             </div>
                                                         </div>
                                                     </section>
-                                                    <!-- Nav Justified Ends -->
                                                 </div>
                                                 <div class="tab-pane" id="vertical-pill-2" role="tabpanel" aria-labelledby="stacked-pill-2" aria-expanded="false">
-                                                    <!-- Nav Justified Starts -->
                                                     <section id="nav-justified">
                                                         <div class="row">
                                                             <div class="col-12">
@@ -401,7 +407,6 @@
                                                                                 </a>
                                                                             </li>
                                                                         </ul>
-                                                                        <!-- Tab panes -->
                                                                         <div class="tab-content pt-1">
                                                                             <div class="tab-pane active" id="line2-just" role="tabpanel" aria-labelledby="line2-tab">
                                                                                 <p>
@@ -424,10 +429,8 @@
                                                             </div>
                                                         </div>
                                                     </section>
-                                                    <!-- Nav Justified Ends -->
                                                 </div>
                                                 <div class="tab-pane" id="vertical-pill-3" role="tabpanel" aria-labelledby="stacked-pill-3" aria-expanded="false">
-                                                    <!-- Nav Justified Starts -->
                                                     <section id="nav-justified">
                                                         <div class="row">
                                                             <div class="col-12">
@@ -450,7 +453,6 @@
                                                                                 </a>
                                                                             </li>
                                                                         </ul>
-                                                                        <!-- Tab panes -->
                                                                         <div class="tab-content pt-1">
                                                                             <div class="tab-pane active" id="line5-just" role="tabpanel" aria-labelledby="line5-tab">
                                                                                 <p>
@@ -473,10 +475,8 @@
                                                             </div>
                                                         </div>
                                                     </section>
-                                                    <!-- Nav Justified Ends -->
                                                 </div>
                                                 <div class="tab-pane" id="vertical-pill-4" role="tabpanel" aria-labelledby="stacked-pill-4" aria-expanded="false">
-                                                    <!-- Nav Justified Starts -->
                                                     <section id="nav-justified">
                                                         <div class="row">
                                                             <div class="col-12">
@@ -499,7 +499,6 @@
                                                                                 </a>
                                                                             </li>
                                                                         </ul>
-                                                                        <!-- Tab panes -->
                                                                         <div class="tab-content pt-1">
                                                                             <div class="tab-pane active" id="line7-just" role="tabpanel" aria-labelledby="line7-tab">
                                                                                 <p>
@@ -522,10 +521,8 @@
                                                             </div>
                                                         </div>
                                                     </section>
-                                                    <!-- Nav Justified Ends -->
                                                 </div>
                                                 <div class="tab-pane" id="vertical-pill-5" role="tabpanel" aria-labelledby="stacked-pill-5" aria-expanded="false">
-                                                    <!-- Nav Justified Starts -->
                                                     <section id="nav-justified">
                                                         <div class="row">
                                                             <div class="col-12">
@@ -543,7 +540,6 @@
                                                                                 </a>
                                                                             </li>
                                                                         </ul>
-                                                                        <!-- Tab panes -->
                                                                         <div class="tab-content pt-1">
                                                                             <div class="tab-pane active" id="line8a-just" role="tabpanel" aria-labelledby="line8a-tab">
                                                                                 <p>
@@ -561,7 +557,6 @@
                                                             </div>
                                                         </div>
                                                     </section>
-                                                    <!-- Nav Justified Ends -->
                                                 </div>
                                             </div>
                                         </div>
@@ -571,319 +566,470 @@
                         </div>
                     </div>
                 </section>
-                <!-- Vertical Pills end -->
-
             </div>
         </div>
     </div>
     <!-- END: Content-->
 .
-    <!-- Modal -->
+    <!-- Modal ON-->
     <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
 
-        <div class="divider divider-center divider-info">
-            <div class="divider-text"><b>Info</b></div>
-        </div>
-        <div class="modal-body">
-            <!-- Basic Horizontal form layout section start -->
-            <section id="basic-horizontal-layouts">
-                <div class="row match-height">
-                    <div class="col-md-12 col-12">
-                        <form class="form form-horizontal">
-                            <div class="form-body">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <p>Status</p>
-                                    </div>
-                                    <div class="col-md-9">
-                                        <div class="alert bg-rgba-success alert-dismissible mb-2" role="alert">
-                                            <div class="d-flex align-items-center">
-                                                <span>
-                                                    ON
-                                                </span>
+            <div class="divider divider-center divider-info">
+                <div class="divider-text"><b>Info</b></div>
+            </div>
+            <div class="modal-body">
+
+                <section id="basic-horizontal-layouts">
+                    <div class="row match-height">
+                        <div class="col-md-12 col-12">
+                            <form class="form form-horizontal">
+                                <div class="form-body">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <p>Status</p>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="alert bg-rgba-success alert-dismissible mb-2" role="alert">
+                                                <div class="d-flex align-items-center">
+                                                    <span>
+                                                        ON
+                                                    </span>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <p>Reason</p>
-                                    </div>
-                                    <div class="col-md-9 form-group">
-                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="N/A" />
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </section>
-            <!-- Basic Horizontal form layout section end -->
-        </div>
-
-        <div class="divider divider-center divider-primary">
-            <div class="divider-text"><b>Now Running</b></div>
-        </div>
-        <div class="modal-body">
-            <!-- Basic Horizontal form layout section start -->
-            <section id="basic-horizontal-layouts">
-                <div class="row match-height">
-                    <div class="col-md-12 col-12">
-                        <form class="form form-horizontal">
-                            <div class="form-body">
-                                <div class="row">
-
-                                    <div class="col-md-3">
-                                        <p>Batch</p>
-                                    </div>
-                                    <div class="col-md-9 form-group">
-                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="KKTPRGO05127" />
-                                    </div>
-                                    <div class="col-md-3">
-                                        <p>Product</p>
-                                    </div>
-                                    <div class="col-md-3 form-group">
-                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="TPRGO" />
-                                    </div>
-                                    <div class="col-md-6 form-group">
-                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="Promag Tablet" />
-                                    </div>
-                                    <div class="col-md-3">
-                                        <p>Standart CT</p>
-                                    </div>
-                                    <div class="col-md-9 form-group">
-                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="3.05" />
-                                    </div>
-                                    <div class="col-md-3">
-                                        <p>Average CT</p>
-                                    </div>
-                                    <div class="col-md-9 form-group">
-                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="2.98" />
-                                    </div>
-                                    <div class="col-md-3">
-                                        <p>Estimated Time to Complete</p>
-                                    </div>
-                                    <div class="col-md-9 form-group">
-                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="12-APR-2022 07:16:32" />
+                                        <div class="col-md-3">
+                                            <p>Reason</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="N/A" />
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <!-- Basic Horizontal form layout section end -->
-        </div>
+                </section>
+            </div>
 
-        <div class="divider divider-center divider-success">
-            <div class="divider-text"><b>Next</b></div>
-        </div>
-        <div class="modal-body">
-            <!-- Table head options start -->
-            <div class="row" id="table-head">
-                <div class="col-12">
-                    <!-- table head dark -->
-                    <div class="table-responsive">
-                        <table class="table">
-                            <thead class="thead-dark">
-                                <tr>
-                                    <th>Batch</th>
-                                    <th>Product</th>
-                                    <th>Estimated Start</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>KKTPRGO05128</td>
-                                    <td>TPRGO</td>
-                                    <td>12-APR-2022 10:16:32</td>
-                                </tr>
-                                <tr>
-                                    <td>KKTPRGO05129</td>
-                                    <td>TPRGO</td>
-                                    <td>15-APR-2022 10:16:32</td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div class="divider divider-center divider-primary">
+                <div class="divider-text"><b>Now Running</b></div>
+            </div>
+            <div class="modal-body">
+                <section id="basic-horizontal-layouts">
+                    <div class="row match-height">
+                        <div class="col-md-12 col-12">
+                            <form class="form form-horizontal">
+                                <div class="form-body">
+                                    <div class="row">
+
+                                        <div class="col-md-3">
+                                            <p>Batch</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="KKTPRGO05127" />
+                                        </div>
+                                        <div class="col-md-3">
+                                            <p>Product</p>
+                                        </div>
+                                        <div class="col-md-3 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="TPRGO" />
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="Promag Tablet" />
+                                        </div>
+                                        <div class="col-md-3">
+                                            <p>Standart CT</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="3.05" />
+                                        </div>
+                                        <div class="col-md-3">
+                                            <p>Average CT</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="2.98" />
+                                        </div>
+                                        <div class="col-md-3">
+                                            <p>Estimated Time to Complete</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="12-APR-2022 07:16:32" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="divider divider-center divider-success">
+                <div class="divider-text"><b>Next</b></div>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="table-head">
+                    <div class="col-12">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>Batch</th>
+                                        <th>Product</th>
+                                        <th>Estimated Start</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>KKTPRGO05128</td>
+                                        <td>TPRGO</td>
+                                        <td>12-APR-2022 10:16:32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>KKTPRGO05129</td>
+                                        <td>TPRGO</td>
+                                        <td>15-APR-2022 10:16:32</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Table head options end -->
-        </div>
 
-        <div class="divider divider-center divider-light">
-            <div class="divider-text"><b>Before</b></div>
-        </div>
-        <div class="modal-body">
-            <!-- Table head options start -->
-            <div class="row" id="table-head">
-                <div class="col-12">
-                    <!-- table head dark -->
-                    <div class="table-responsive">
-                        <table class="table">
-                            <thead class="thead-dark">
-                                <tr>
-                                    <th>Batch</th>
-                                    <th>Product</th>
-                                    <th>Completed</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>KKTPRGO05126</td>
-                                    <td>TPRGO</td>
-                                    <td>9-APR-2022 10:16:32</td>
-                                </tr>
-                                <tr>
-                                    <td>KKTPRGO05125</td>
-                                    <td>TPRGO</td>
-                                    <td>6-APR-2022 10:16:32</td>
-                                </tr>
-                                <tr>
-                                    <td>KKTPRGO05124</td>
-                                    <td>TPRGO</td>
-                                    <td>3-APR-2022 10:16:32</td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div class="divider divider-center divider-light">
+                <div class="divider-text"><b>Before</b></div>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="table-head">
+                    <div class="col-12">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>Batch</th>
+                                        <th>Product</th>
+                                        <th>Completed</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>KKTPRGO05126</td>
+                                        <td>TPRGO</td>
+                                        <td>9-APR-2022 10:16:32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>KKTPRGO05125</td>
+                                        <td>TPRGO</td>
+                                        <td>6-APR-2022 10:16:32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>KKTPRGO05124</td>
+                                        <td>TPRGO</td>
+                                        <td>3-APR-2022 10:16:32</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Table head options end -->
-        </div>
 
+            </div>
         </div>
     </div>
-    </div>
 
-    <!-- Modal2 -->
+    <!-- Modal Breakdown-->
     <div class="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
 
-        <div class="divider divider-center divider-info">
-            <div class="divider-text"><b>Info</b></div>
-        </div>
-        <div class="modal-body">
-            <!-- Basic Horizontal form layout section start -->
-            <section id="basic-horizontal-layouts">
-                <div class="row match-height">
-                    <div class="col-md-12 col-12">
-                        <form class="form form-horizontal">
-                            <div class="form-body">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <p>Status</p>
-                                    </div>
-                                    <div class="col-md-9">
-                                        <div class="alert bg-rgba-danger alert-dismissible mb-2" role="alert">
-                                            <div class="d-flex align-items-center">
-                                                <span>
-                                                    OFF
-                                                </span>
+            <div class="divider divider-center divider-info">
+                <div class="divider-text"><b>Info</b></div>
+            </div>
+            <div class="modal-body">
+.
+                <section id="basic-horizontal-layouts">
+                    <div class="row match-height">
+                        <div class="col-md-12 col-12">
+                            <form class="form form-horizontal">
+                                <div class="form-body">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <p>Status</p>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="alert bg-rgba-danger alert-dismissible mb-2" role="alert">
+                                                <div class="d-flex align-items-center">
+                                                    <span>
+                                                        BREAKDOWN
+                                                    </span>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <p>Reason</p>
-                                    </div>
-                                    <div class="col-md-9 form-group">
-                                        <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="Breakdown" />
+                                        <div class="col-md-3">
+                                            <p>Reason</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="MINOR BREAKDOWN" />
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <!-- Basic Horizontal form layout section end -->
-        </div>
+                </section>
+            </div>
 
-        <div class="divider divider-center divider-primary">
-            <div class="divider-text"><b>Now Running</b></div>
-        </div>
-        <div class="modal-body">
-            <h4>N/A</h4>
-        </div>
+            <div class="divider divider-center divider-primary">
+                <div class="divider-text"><b>Now Running</b></div>
+            </div>
+            <div class="modal-body">
+                <section id="basic-horizontal-layouts">
+                    <div class="row match-height">
+                        <div class="col-md-12 col-12">
+                            <form class="form form-horizontal">
+                                <div class="form-body">
+                                    <div class="row">
 
-        <div class="divider divider-center divider-success">
-            <div class="divider-text"><b>Next</b></div>
-        </div>
-        <div class="modal-body">
-            <!-- Table head options start -->
-            <div class="row" id="table-head">
-                <div class="col-12">
-                    <!-- table head dark -->
-                    <div class="table-responsive">
-                        <table class="table">
-                            <thead class="thead-dark">
-                                <tr>
-                                    <th>Batch</th>
-                                    <th>Product</th>
-                                    <th>Estimated Start</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>KKTPRGO05128</td>
-                                    <td>TPRGO</td>
-                                    <td>12-APR-2022 10:16:32</td>
-                                </tr>
-                                <tr>
-                                    <td>KKTPRGO05129</td>
-                                    <td>TPRGO</td>
-                                    <td>15-APR-2022 10:16:32</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                                        <div class="col-md-3">
+                                            <p>Batch</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="KKTPRGO05127" />
+                                        </div>
+                                        <div class="col-md-3">
+                                            <p>Product</p>
+                                        </div>
+                                        <div class="col-md-3 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="TPRGO" />
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="Promag Tablet" />
+                                        </div>
+                                        <div class="col-md-3">
+                                            <p>Standart CT</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="3.05" />
+                                        </div>
+                                        <div class="col-md-3">
+                                            <p>Average CT</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="2.98" />
+                                        </div>
+                                        <div class="col-md-3">
+                                            <p>Estimated Time to Complete</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="12-APR-2022 07:16:32" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="divider divider-center divider-success">
+                <div class="divider-text"><b>Next</b></div>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="table-head">
+                    <div class="col-12">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>Batch</th>
+                                        <th>Product</th>
+                                        <th>Estimated Start</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>KKTPRGO05128</td>
+                                        <td>TPRGO</td>
+                                        <td>12-APR-2022 10:16:32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>KKTPRGO05129</td>
+                                        <td>TPRGO</td>
+                                        <td>15-APR-2022 10:16:32</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Table head options end -->
-        </div>
 
-        <div class="divider divider-center divider-light">
-            <div class="divider-text"><b>Before</b></div>
-        </div>
-        <div class="modal-body">
-            <!-- Table head options start -->
-            <div class="row" id="table-head">
-                <div class="col-12">
-                    <!-- table head dark -->
-                    <div class="table-responsive">
-                        <table class="table">
-                            <thead class="thead-dark">
-                                <tr>
-                                    <th>Batch</th>
-                                    <th>Product</th>
-                                    <th>Completed</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>KKTPRGO05126</td>
-                                    <td>TPRGO</td>
-                                    <td>9-APR-2022 10:16:32</td>
-                                </tr>
-                                <tr>
-                                    <td>KKTPRGO05125</td>
-                                    <td>TPRGO</td>
-                                    <td>6-APR-2022 10:16:32</td>
-                                </tr>
-                                <tr>
-                                    <td>KKTPRGO05124</td>
-                                    <td>TPRGO</td>
-                                    <td>3-APR-2022 10:16:32</td>
-                                </tr>
-                            </tbody>
-                        </table>
+            <div class="divider divider-center divider-light">
+                <div class="divider-text"><b>Before</b></div>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="table-head">
+                    <div class="col-12">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>Batch</th>
+                                        <th>Product</th>
+                                        <th>Completed</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>KKTPRGO05126</td>
+                                        <td>TPRGO</td>
+                                        <td>9-APR-2022 10:16:32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>KKTPRGO05125</td>
+                                        <td>TPRGO</td>
+                                        <td>6-APR-2022 10:16:32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>KKTPRGO05124</td>
+                                        <td>TPRGO</td>
+                                        <td>3-APR-2022 10:16:32</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- Table head options end -->
-        </div>
 
+            </div>
         </div>
     </div>
+
+    <!-- Modal No Target -->
+    <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+            <div class="divider divider-center divider-info">
+                <div class="divider-text"><b>Info</b></div>
+            </div>
+            <div class="modal-body">
+                <section id="basic-horizontal-layouts">
+                    <div class="row match-height">
+                        <div class="col-md-12 col-12">
+                            <form class="form form-horizontal">
+                                <div class="form-body">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <p>Status</p>
+                                        </div>
+                                        <div class="col-md-9">
+                                            <div class="alert bg-rgba-warning alert-dismissible mb-2" role="alert">
+                                                <div class="d-flex align-items-center">
+                                                    <span>
+                                                        NO TARGET
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <p>Reason</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="N/A" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="divider divider-center divider-primary">
+                <div class="divider-text"><b>Now Running</b></div>
+            </div>
+            <div class="modal-body">
+                <h4>N/A</h4>
+            </div>
+
+            <div class="divider divider-center divider-success">
+                <div class="divider-text"><b>Next</b></div>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="table-head">
+                    <div class="col-12">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>Batch</th>
+                                        <th>Product</th>
+                                        <th>Estimated Start</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>KKTPRGO05128</td>
+                                        <td>TPRGO</td>
+                                        <td>12-APR-2022 10:16:32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>KKTPRGO05129</td>
+                                        <td>TPRGO</td>
+                                        <td>15-APR-2022 10:16:32</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider divider-center divider-light">
+                <div class="divider-text"><b>Before</b></div>
+            </div>
+            <div class="modal-body">
+                <div class="row" id="table-head">
+                    <div class="col-12">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        <th>Batch</th>
+                                        <th>Product</th>
+                                        <th>Completed</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>KKTPRGO05126</td>
+                                        <td>TPRGO</td>
+                                        <td>9-APR-2022 10:16:32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>KKTPRGO05125</td>
+                                        <td>TPRGO</td>
+                                        <td>6-APR-2022 10:16:32</td>
+                                    </tr>
+                                    <tr>
+                                        <td>KKTPRGO05124</td>
+                                        <td>TPRGO</td>
+                                        <td>3-APR-2022 10:16:32</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
     </div>
+
 <?php require "footer.php"; ?>
