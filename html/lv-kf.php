@@ -672,6 +672,12 @@
                                             <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="2.98" />
                                         </div>
                                         <div class="col-md-3">
+                                            <p>Actual Start</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="09-APR-2022 07:16:32" />
+                                        </div>
+                                        <div class="col-md-3">
                                             <p>Estimated Time to Complete</p>
                                         </div>
                                         <div class="col-md-9 form-group">
@@ -839,6 +845,12 @@
                                         </div>
                                         <div class="col-md-9 form-group">
                                             <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="2.98" />
+                                        </div>
+                                        <div class="col-md-3">
+                                            <p>Actual Start</p>
+                                        </div>
+                                        <div class="col-md-9 form-group">
+                                            <input type="text" class="form-control" id="readonlyInput" readonly="readonly" value="09-APR-2022 07:16:32" />
                                         </div>
                                         <div class="col-md-3">
                                             <p>Estimated Time to Complete</p>
