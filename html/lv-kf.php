@@ -183,10 +183,12 @@
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">Zanchetta</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <h4>
                                                                                                                 <span class="badge badge-light-success">ON</span>
                                                                                                             </h4>
-                                                                                                            <div class="progress progress-bar-primary mb-2">
+                                                                                                            <div class="progress progress-bar-primary mb-1">
                                                                                                                 <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%"></div>
                                                                                                             </div>
                                                                                                         </div>
