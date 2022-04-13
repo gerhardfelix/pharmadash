@@ -181,7 +181,7 @@
                                                                                                                 <img src="../app-assets/images/line_v/line1b.png" alt="element 04" width="150" height="100" class="float-left mt-1 img-fluid">
                                                                                                             </a>                                                                                                            
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column mt-1">
                                                                                                             <p class="card-text">Zanchetta</p>
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
