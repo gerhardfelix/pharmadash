@@ -183,6 +183,8 @@
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <p class="card-text">Zanchetta</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <h4>
                                                                                                                 <span class="badge badge-light-success">ON</span>
                                                                                                             </h4>
