@@ -178,13 +178,11 @@
                                                                                                         </div>
                                                                                                         <div class="col-md-12 col-sm-12 mb-50 d-flex justify-content-center" style="height: 100px;">
                                                                                                             <a href="https://epm-fe.z.devcloud.my.id/_backyard/login">
-                                                                                                                <img src="../app-assets/images/line_v/line1b.png" alt="element 04" class="float-left mt-1 img-fluid">
+                                                                                                                <img src="../app-assets/images/line_v/line1b.png" alt="element 04" width="150" height="100" class="float-left mt-1 img-fluid">
                                                                                                             </a>                                                                                                            
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column mt-1">
-                                                                                                            <p class="card-text">Zanchetta</p>
-                                                                                                        </div>
                                                                                                         <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                            <p class="card-text">Zanchetta</p>
                                                                                                             <h4>
                                                                                                                 <span class="badge badge-light-success">ON</span>
                                                                                                             </h4>
