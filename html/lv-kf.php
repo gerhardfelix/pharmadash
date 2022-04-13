@@ -155,8 +155,10 @@
                                                                                                                 <img src="../app-assets/images/line_v/line1a.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">    
                                                                                                             </a>                                                                                                            
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column mt-1">
                                                                                                             <p class="card-text">Diosna</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <h4>
                                                                                                                 <span class="badge badge-light-success">ON</span>
                                                                                                             </h4>
@@ -208,9 +210,11 @@
                                                                                                             <a href="https://epm-fe.z.devcloud.my.id/_backyard/login">
                                                                                                                 <img src="../app-assets/images/line_v/line1c.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">    
                                                                                                             </a>
-                                                                                                            </div>
-                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column mt-1">
                                                                                                             <p class="card-text">Fette 3200</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <h4>
                                                                                                                 <span class="badge badge-light-success">ON</span>
                                                                                                             </h4>
@@ -235,8 +239,10 @@
                                                                                                                 <img src="../app-assets/images/line_v/line1d.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">    
                                                                                                             </a>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column mt-1">
                                                                                                             <p class="card-text">UPS 1070</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <h4>
                                                                                                                 <span class="badge badge-light-danger">BREAKDOWN</span>
                                                                                                             </h4>
@@ -261,8 +267,10 @@
                                                                                                                 <img src="../app-assets/images/line_v/line1e.png" alt="element 04" width="150" class="float-left mt-1 img-fluid">    
                                                                                                             </a>
                                                                                                         </div>
-                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column mt-1">
                                                                                                             <p class="card-text">C2404</p>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-12 col-sm-12 d-flex justify-content-center flex-column">
                                                                                                             <h4>
                                                                                                                 <span class="badge badge-light-warning">NO TARGET</span>
                                                                                                             </h4>
